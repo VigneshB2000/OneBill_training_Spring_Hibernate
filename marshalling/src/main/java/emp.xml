@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee Employee_Id="1">
+    <address>
+        <area>BTM layout</area>
+        <country>India</country>
+        <doorNo>123</doorNo>
+        <locality>JP Nagar</locality>
+        <pincode>642003</pincode>
+    </address>
+    <designation>Mother's Brother</designation>
+    <name>mama</name>
+    <salary>200000</salary>
+</employee>

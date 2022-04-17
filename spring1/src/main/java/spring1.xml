@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+	<bean class="com.ty.spring.spring1.Boy" name="boy1">
+		<constructor-arg value="AAA" />
+		<constructor-arg value="21" />
+		<constructor-arg value="12345667890" />
+		<constructor-arg value="Engineering" />
+	</bean>
+	<bean class="com.ty.spring.spring1.Boy" name="boy2">
+		<property name = "name" value = "BBB" />
+		<property name = "age" value = "23" />
+		<property name = "number" value = "0987654321" />
+		<property name = "qualification" value = "Doctor" />
+	</bean>
+	<bean class="com.ty.spring.spring1.Girl" name="girl1">
+		<constructor-arg value="CCC" />
+		<constructor-arg value="23" />
+		<constructor-arg value="1029384756" />
+		<constructor-arg value="TikToker" />
+		<constructor-arg ref="boy1" />
+	</bean>
+	<bean class="com.ty.spring.spring1.Girl" name="girl2">
+		<constructor-arg value="DDD" />
+		<constructor-arg value="19" />
+		<constructor-arg value="6574839201" />
+		<constructor-arg value="Model" />
+		<constructor-arg ref="boy2" />
+	</bean>
+
+</beans>

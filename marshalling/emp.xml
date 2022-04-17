@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee Employee_Id="1">
+    <designation>Mother's Brother</designation>
+    <name>mama</name>
+    <salary>200000</salary>
+</employee>

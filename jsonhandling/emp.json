@@ -1,0 +1,14 @@
+{
+  "id" : 1,
+  "salary" : 999999999,
+  "designation" : "Genius, Billionaire, Playboy, Philianthrophist",
+  "address" : {
+    "doorNo" : "56y",
+    "area" : "NY",
+    "locality" : "Stark tower",
+    "pincode" : 0,
+    "country" : "USA"
+  },
+  "name" : "Tony stark",
+  "full_name" : "Tony stark"
+}
